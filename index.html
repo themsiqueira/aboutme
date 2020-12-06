@@ -28,6 +28,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="jquery.hugo-decoded.typewriter.min.js"></script>
+        <script src="https://kit.fontawesome.com/b7bfc0f1a4.js" crossorigin="anonymous"></script>
         <script>
             $(document).ready(function(){    
                 $('#resume-title').typewrite( {
@@ -35,6 +36,9 @@
                     'Olá, eu sou o Siqueira!',  
                     ],
                     speed: 100,
+                });
+                $('.btn-social-icon').click(function() {
+                    $(this).attr('target', '_blank');
                 });
             });
             
@@ -84,6 +88,30 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/mateus.siqueiracarneiro.7">
+                                    <span class="fa fa-facebook"></span>
+                                  </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/omsiqueira">
+                                    <span class="fa fa-instagram"></span>
+                                  </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/mateus-siqueira-carneiro">
+                                    <span class="fa fa-linkedin"></span>
+                                  </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a class="btn btn-social-icon btn-github" href="https://github.com/themsiqueira">
+                                    <span class="fa fa-github"></span>
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>

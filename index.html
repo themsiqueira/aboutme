@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <style>
+            body {
+                background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                background-size: cover;
+                -o-background-size: cover;
+            }
+            img {width: 100%; height: 100%;}
+            div.container {
+                margin-top:3%;
+            }
+            #resume-title {
+               margin-bottom: 3%; 
+            }
+            #detail {
+                margin: 3% 0 3% 0;  
+            }
+        </style>
+        <title>Olá, eu sou o Siqueira!</title>
+        <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/jetpack-joyride.png"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="jquery.hugo-decoded.typewriter.min.js"></script>
+        <script>
+            $(document).ready(function(){    
+                $('#resume-title').typewrite( {
+                    text: [ 
+                    'Olá, eu sou o Siqueira!',  
+                    ],
+                    speed: 100,
+                });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card border-0 shadow my-5">
+              <div class="card-body p-5">
+                <div class="container">
+                    <h1 id="resume-title" class="d-flex justify-content-center"></h1>
+                    <div class="row d-flex align-items-center">
+                        <div class="col-sm-3">
+                            <img src="https://scontent.fsjk2-1.fna.fbcdn.net/v/t31.0-8/22050896_1840137966316484_4734587825673974921_o.jpg?_nc_cat=100&ccb=2&_nc_sid=84a396&_nc_ohc=tjO92pEqARcAX_O2Nbk&_nc_ht=scontent.fsjk2-1.fna&oh=bbe43a877ed7bfe5e4e4d744f349d8ae&oe=5FF15C5F" class="img-thumbnail" alt="Cinque Terre">
+                        </div>
+                        <div class="col-sm-8">
+                            <h1>Sobre Mim ?</h1>
+                            <p>Eterno estudante e desenvolvedor, fascinado por tecnologia e como ela torna nossa vida mais simples.</p>
+                            <h1>Objetivo</h1>
+                            <p>Acredito que nosso trabalho na área da computação é resolver problemas, então gostaria de me tornar referência no que eu faço!</p>
+                        </div>
+                    </div>
+                    <table id="detail" class="table table-bordered">
+                        <thead>
+                            <tr>
+                            <th>Formação</th>
+                            <th>Qualificação Técnica</th>
+                            <th>Experiências Profissionais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Bacharelado em ciência e tecnologia - em curso</td>
+                            <td>Backend - NodeJs, Typescript, C#, Jest, XUnit, PostgresSQl, MySql, SqlServer</td>
+                            <td>Backend Engineer - Devires</td>
+                            
+                            </tr>
+                            <tr>
+                            <td>Tecnico em automação industrial</td>
+                            <td>Frontend - React Native, HTML, Javascript, CSS, Bootstrap</td>
+                            <td>Desenvolvedor Backend - Zappts</td>
+                            </tr>
+                            <tr>
+                            <td>Tecnico em Hardware e informática</td>
+                            <td>Infra, ferramentas e metodologias - AWS, Azure, Docker, Scrum, TDD, DDD, Kanban</td>
+                            <td>Desenvolvedor FullStack - Agrotools</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
